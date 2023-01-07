@@ -1,0 +1,8 @@
+git config --global user.email
+git config --global user.email <email>
+git config --global user.name
+git config --global user.name <name>
+git init // initiation of repo
+ls -lart //to show hidden files
+git add ./<filename>
+touch <filename> // to create new file with `filename`
