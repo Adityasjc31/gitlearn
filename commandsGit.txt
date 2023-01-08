@@ -18,3 +18,4 @@ git diff --staged //gives difference from last commit with stage
 git commit -a -m "Skipped staging area and making commit"
 git rm <filename> //to remove file and from the staging area as well
 git rm --cached <filename>//to remove file from staging area only
+git status -s//short status
