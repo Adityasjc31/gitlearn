@@ -48,3 +48,4 @@ Setting url to push :
 Pushing to private repository :
         git push -u <urlname> <branchname>
 
+git clone <url> //To clone a repository
