@@ -47,3 +47,7 @@ Setting url to push :
     
 Pushing to private repository :
         git push -u <urlname> <branchname>
+
+#Example to push a new branch
+    git checkout `newbranch`
+    git push -u `origin` `newbranch`
