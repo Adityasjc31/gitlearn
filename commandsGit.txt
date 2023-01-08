@@ -6,3 +6,13 @@ git init // initiation of repo
 ls -lart //to show hidden files
 git add ./<filename>
 touch <filename> // to create new file with `filename`
+git add -A//To add all files
+git commit -m "message"
+git checkout <filename>/-f(to restore all the files in directory)
+git log
+git log -p -1//All the changes made,and number of commits requested in detail
+            ^
+            (number of commits to see)
+git diff //gives difference from staging area to current working tree
+git diff --staged //gives difference from last commit with stage
+git commit -a -m "Skipped staging area and making commit"
