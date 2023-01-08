@@ -48,4 +48,13 @@ Setting url to push :
 Pushing to private repository :
         git push -u <urlname> <branchname>
 
+<<<<<<< Updated upstream
 git clone <url> //To clone a repository
+=======
+#Example to push a new branch
+    git checkout `newbranch`
+    git push -u `origin` `newbranch`
+
+git stash -u //Saving it and not commiting it
+>>>>>>> Stashed changes
+git stash pop //To pop the saved work
