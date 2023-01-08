@@ -23,3 +23,31 @@ git branch <name of branch> //to create a new branch
 git branch //to display branches and in which we are working on
 git checkout <branchName> //to switch to a branch specified
 git merge <branchName> //Changes takes place in the branch which we are currently on from the branch name requested
+git checkout -b <newBranchName>//to create a new branch and switch to it
+
+Remote connection
+git remote add <urlname> <url> //Add a new `url` with `urlname`
+git remote // display all the urlname
+git remote -v //display all the urlname with it's fetch and push urls
+git push origin master // This pushes the local repository to remote but if and only if it is present and kept public
+
+
+Read Access for private repository
+Getting SSH keys
+Generation of SSH keys :
+    ssh-keygen -t ed25519 -C "<email>" // To generate a public/private SSH keys
+To get agent process id :
+    eval "$(ssh-agent -s)"
+Adding SSH private key to SSH-Agent :
+    ssh-add ~/.ssh/id_ed25519
+clip < ~/.ssh/id_ed25519.pub //to copy ssh key to clipboard
+cat ~/.ssh/id_ed25519.pub //to print ssh key to console
+Setting url to push :
+    git remote set-url origin <url>
+    
+Pushing to private repository :
+        git push -u <urlname> <branchname>
+
+#Example to push a new branch
+    git checkout `newbranch`
+    git push -u `origin` `newbranch`
