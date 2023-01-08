@@ -22,3 +22,4 @@ git status -s//short status
 git branch <name of branch> //to create a new branch
 git branch //to display branches and in which we are working on
 git checkout <branchName> //to switch to a branch specified
+git merge <branchName> //Changes takes place in the branch which we are currently on from the branch name requested
