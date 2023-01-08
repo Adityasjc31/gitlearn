@@ -24,3 +24,8 @@ git branch //to display branches and in which we are working on
 git checkout <branchName> //to switch to a branch specified
 git merge <branchName> //Changes takes place in the branch which we are currently on from the branch name requested
 git checkout -b <newBranchName>//to create a new branch and switch to it
+
+Remote connection
+git remote add <urlname> <url> //Add a new `url` with `urlname`
+git remote // display all the urlname
+git remote -v //display all the urlname with it's fetch and push urls
