@@ -55,3 +55,5 @@ git clone <url> //To clone a repository
 
 git stash -u //Saving it and not commiting it
 git stash pop //To pop the saved work
+
+git reset --hard <commit_id> //to revert changes other than the last commit
